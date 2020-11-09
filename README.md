@@ -1,0 +1,1 @@
+This is a repository for the curriculum access analysis project. Additional details will be updated to the README at a later time.
