@@ -103,14 +103,22 @@ This project is based on a scenario presented in the e-mail below:
 > Presentation Notes
 
 > The slide shows four charts. 
+
 > Top left: This shows which five top pages are being accessed by web development students over time. The five top pages were identified through the use of value_counts(). The data was resampled to quarterly periods. Shorter periods had too much variation to be able to read. The sudden drop in all page views on the far right of the graph is not due to a change in the trend. The final quarter of 2020 is not complete, so the last points in the line represent a count of only a portion of the total time period. 
+
 > Bottom left: This shows the trends for the top five modules accessed by data science students over time. The data was resampled to weekly periods. Data science students operate in non-overlapping cohorts. As each part of the curriculum is covered in class, views of the relevant pages increases. Once the class moves on to a different module, views of the previous module’s material decreases. The most important takeaway is in the change to the order of Darden’s curriculum. This resulted in a dramatic increase in views of the classification material. The students may have been more confused during the classification module compared to other cohorts. The first modeling module in the curriculum simultaneously teaches fundamental principles of modeling along with specific algorithms. Based on the trend in the data, I would suggest that the classification algorithms are more difficult to understand than the regression algorithms. Learning the more difficult algorithms at the same time as one learns the fundamental principles of modeling may have been more difficult.
+
 > Top right: This chart shows the activity of the user that has accessed the web pages the most. This user was from the Lassen web development cohort in 2016. They are still actively reviewing the curriculum pages four years later. Notice that their activity is relatively consistent, and even when they have spikes, they are not nearly as large as the spikes that web scrapers have.
+
 > Bottom right: This chart shows the activity that is characteristic of a web scraper. There is little to no activity during most periods and there is an extreme spike in a single period.
+
 > The slide also shows three user ids and their related ip addresses (center)
 > These are the three web scrapers that were identified in the analysis.
+
 > User 526 is located in San Antonio, TX
+
 > User 341 is located in Dallas, TX
+
 > User 247 is located in Irving, TX
 
 
